@@ -1,0 +1,57 @@
+body{
+	background:url(http://akphoto3.ask.fm/628/983/379/-359996987-1tc42ic-a9ba60o3ol3tk8a/original/plain_pink_custom_box_background_by_cupcakekitten20d61reii.png);
+}
+h1{
+	text-transform:uppercase;
+	color:#006600;
+	text-align:center;
+}
+#menu ul {
+  background: #009933;
+  width: 250px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+#menu li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  padding: 0 1em;
+}
+#menu li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: block;
+}
+#menu li:hover {
+  background: #009900;
+}
+#menu ul li {
+ position: relative;
+}
+#menu .sub-menu {
+ position: absolute;
+ left: 250px;
+ top: 0;
+}
+#menu .sub-menu {
+ position: absolute;
+ left: 250px;
+ top: 0;
+ display: none;
+}
+#menu li:hover .sub-menu {
+ display: block;
+}
+#menu,#content{
+	float:left;
+}
+#content{
+	margin:15px 0px 0px 235px;
+}
+table tr td{
+	padding:15px;
+}
