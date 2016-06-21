@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 18, 2016 at 08:06 AM
+-- Generation Time: Jun 21, 2016 at 11:03 AM
 -- Server version: 10.1.13-MariaDB
--- PHP Version: 5.6.20
+-- PHP Version: 5.6.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -125,12 +125,12 @@ CREATE TABLE `sanpham` (
 --
 
 INSERT INTO `sanpham` (`id`, `iddanhmuc`, `name`, `price`, `content`, `discount`, `image_link`, `created`, `view`) VALUES
-(1, 2, 'Sắt 10', '15.000', 'Thoi bo di nhe, san pham nay khong co that dau, bon tao nhin cho vui thoi nhe =)))', 0, 'http://localhost/html/web/img/a1.jpg', 1, 0),
-(18, 1, 'Tuan', '120.000', 'Khong biet ghi them gi ca', 0, 'http://localhost/html/web/img/a3.jpg', 0, 0),
-(19, 1, 'Test1', '12.000', 'Tesst1', 0, 'http://localhost/html/web/img/a6.jpg', 1, 0),
-(20, 2, 'chidp', '1.000', '111', 0, 'http://localhost/html/web/img/a1.jpg', 1, 0),
-(21, 4, 'Pham Nhu Ngoc Tuan', '1111.000', '124555', 0, 'http://localhost/html/web/img/a3.jpg', 1, 0),
-(22, 1, '2ww', '67.000', '21111', 2, 'http://localhost/html/web/img/a1.jpg', 0, 0),
+(1, 2, 'Sắt 10', '15.000', 'Thoi bo di nhe, san pham nay khong co that dau, bon tao nhin cho vui thoi nhe =)))', 0, 'img/a1.jpg', 1, 0),
+(18, 1, 'Gạch 6 lỗ loại nhỏ', '120.000', 'Gạch tuynel 6 nhỏ là loại gạch được thiết kế nhằm phục vụ mục đích xây dựng tiết kiệm. Gạch có kích thước nhỏ và giá thành thấp phù hợp với các công trình xây dựng có chi phí thấp. Đồng thời bề rộng 70, thích hợp cho các nhà cần tiết kiệm không gian. Gạch được dùng để xây tường bao che, tường phòng, tường rào cỗng ngõ.', 0, 'img/gach.jpg', 1, 0),
+(19, 1, 'Test1', '12.000', 'Tesst1', 0, 'img/a6.jpg', 1, 0),
+(20, 2, 'chidp', '1.000', '111', 0, 'img/a1.jpg', 1, 0),
+(21, 4, 'Pham Nhu Ngoc Tuan', '1111.000', '124555', 0, 'img/a3.jpg', 1, 0),
+(22, 1, '2ww', '67.000', '21111', 0, 'img/a1.jpg', 0, 0),
 (23, 3, 'Chi cũng được cả', '25.000', 'Chưa biết viết gì thêm', 0, 'http://localhost/html/web/img/a2.jpg', 0, 0),
 (24, 0, '', '0.000', '', 0, '', 0, 0),
 (25, 4, 'Sơn', '100.000', 'Sơn Toa', 0, 'http://localhost/html/web/img/anh6.png', NULL, 0);
