@@ -1,0 +1,61 @@
+#content-product{
+	height:800px;
+	width:100%;
+}
+#content-product .content-product-right{
+	width:80%;
+}
+.brick{
+float:left;
+padding-left:50px;
+padding-right:40px;
+margin-bottom: 50px;
+position:relative;
+text-align: center;
+}
+.brick-left .img{
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 140px;
+    min-height: 140px;
+    display: inline;
+	border: 1px solid #ccc;	
+}
+.brick-right{
+	margin:0px 0px 0px 1px;
+	
+}
+.brick-right p,.brick-right .ava-price{
+	
+	padding:5px;
+	border-bottom:1px solid #ccc;
+}
+.brick-right .ava-price .availability_sku{
+	color:#0876e6;
+}
+.brick-right .ava-price  .price{
+	color:red;
+}
+.brick-right  button{
+	height:50px;
+	width:100px;
+	display:inline-block;
+	border-radius:8px;
+	margin-top:20px;
+	color:#fff;
+	background:#009900;
+
+}
+#product-brick h2{
+	font-size:20px;
+	color:#009900;
+	font-weight: bold;
+	border-bottom:1px solid #ccc;
+	padding:15px 15px 20px;
+	margin:30px 10px 15px 0px;
+}
+
+.phantrang{
+	margin: 30px auto;
+	
+}
